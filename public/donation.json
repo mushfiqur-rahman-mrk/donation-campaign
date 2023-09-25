@@ -1,0 +1,99 @@
+[
+    {
+      "id": "1",
+      "category": "Health",
+      "title": "Support Medical Clinics",
+      "image": "https://i.ibb.co/NWxCRP8/medical-clenic.jpg",
+      "details": "Donate to support the establishment and operation of medical clinics in underserved areas. Your contribution will help provide essential supplies, medical equipment, and qualified healthcare professionals to ensure that individuals in these regions have access to quality healthcare services. We aim to make a significant impact by addressing healthcare disparities and improving the overall well-being of these communities.",
+      "donation_amount": 50000
+    },
+    {
+        "id": "2",
+        "category": "Food",
+        "title": "Feed the Hungry Children",
+        "image": "https://i.ibb.co/9ZWWqk4/hungry-children.jpg",
+        "details": "Join us in our mission to provide nutritious meals to hungry children in underserved communities. Your donations will help us combat food insecurity and ensure that no child goes to bed hungry. With your support, we aim to distribute food packages that include essential food items like grains, vegetables, and protein sources to families in need. Together, we can make a significant impact in the lives of these children and their families.",
+        "donation_amount": 20000
+    },
+    {
+      "id": "3",
+      "category": "Clothing",
+      "title": "Warmth for the Winter",
+      "image": "https://i.ibb.co/HzXNxKC/winter-warmth.jpg",
+      "details": "Join us in providing warmth to those in need during the winter months. Your generous donations of warm clothing items such as coats, sweaters, and blankets will make a significant difference in the lives of individuals facing cold weather without adequate attire. Together, we can ensure that everyone has access to warm and comfortable clothing to stay safe and healthy during the winter season.",
+      "donation_amount": 15000
+    },
+    {
+      "id": "4",
+      "category": "Health",
+      "title": "Support Mental Health Services",
+      "image": "https://i.ibb.co/QrHwCqp/mental-health-1.png",
+      "details": "Help us promote mental health awareness and provide crucial counseling services to those in need. Mental health is a fundamental aspect of overall well-being, and your donations will support initiatives aimed at reducing stigma, offering support networks, and providing counseling resources. By contributing, you contribute to destigmatizing mental health challenges and making mental health care accessible to everyone.",
+      "donation_amount": 30000
+    },
+    {
+        "id": "5",
+        "category": "Education",
+        "title": "Scholarships for Poor Students",
+        "image": "https://i.ibb.co/c2hbHkm/Scholarship-1.jpg",
+        "details": "Support the dreams of underprivileged students by providing scholarships for their education. Your generous donations will make a profound impact on the lives of these deserving young individuals. With your help, we aim to cover tuition fees, provide textbooks, and offer essential educational resources to students who face financial barriers to their education.These scholarships empower students to pursue their academic ambitions, unlock their potential, and build a brighter future. By contributing to this campaign, you play a vital role in creating educational opportunities that transform lives and uplift communities. Together, we can ensure that no student's dreams are hindered by financial limitations. Join us in this mission to make quality education accessible to all.",
+        "donation_amount": 25000
+      },
+      {
+        "id": "6",
+        "category": "Clothing",
+        "title": "Dress for Success",
+        "image": "https://example.com/clothing-campaign-2-image.jpg",
+        "details": "Support our mission to empower individuals by providing them with professional attire. Your contributions will help us collect gently used business clothing, such as suits and dress shoes, for job seekers. By participating in this campaign, you're giving individuals the confidence and resources they need to excel in job interviews and the workplace. Together, we can make a lasting impact on people's lives and career prospects.",
+        "donation_amount": 20000
+      },
+      {
+        "id": "7",
+        "category": "Education",
+        "title": "Build Schools in Rural Areas",
+        "image": "https://i.ibb.co/19C8Xt3/build-school.jpg",
+        "details": "Help us bring the gift of education to remote rural areas where access to quality schooling is scarce. Your generous donations will support our mission to construct new schools in these underserved communities. By contributing to this campaign, you enable us to build safe and well-equipped classrooms, provide essential learning materials, and employ dedicated teachers who are passionate about educating the next generation.Access to education is a fundamental right, and your support ensures that children in these regions have a chance to learn, grow, and realize their full potential. Join us in creating a brighter future for these young minds and in breaking the cycle of poverty through education.",
+        "donation_amount": 50000
+      },
+      {
+        "id": "8",
+        "category": "Food",
+        "title": "Support Local Food Banks",
+        "image": "https://i.ibb.co/Wsm9Syc/food-bank.jpg",
+        "details": "Help us strengthen local food banks and food rescue programs in your community. Your contributions will enable us to collect surplus food from local businesses and distribute it to those facing hunger. By supporting this campaign, you're not only reducing food waste but also providing nutritious meals to individuals and families struggling to make ends meet. Together, we can ensure that everyone has access to an adequate and healthy diet.",
+        "donation_amount": 30000
+      },
+      {
+        "id": "9",
+        "category": "Education",
+        "title": "Digital Learning Initiative",
+        "image": "https://i.ibb.co/4S9k5FQ/digital-learning-1.jpg",
+        "details": "Support our digital learning initiative aimed at equipping schools with modern educational technology. Your contributions will fund the provision of computers, internet access, and educational software to schools, making digital learning resources accessible to students. In today's digital age, it's crucial to bridge the digital divide in education and prepare students for the future.By participating in this campaign, you empower students to develop essential digital skills, access a world of knowledge online, and enhance their educational experiences. Together, we can ensure that no student is left behind in the digital era, and all students have equal access to a quality education.",
+        "donation_amount": 30000
+      },
+      {
+        "id": "10",
+        "category": "Clothing",
+        "title": "School Uniforms for Students",
+        "image": "https://i.ibb.co/n8str5B/school-uniform.jpg",
+        "details": "Support students in their educational journey by providing them with school uniforms. Your donations will help ensure that children have access to appropriate attire for school, reducing barriers to education. By contributing to this campaign, you're promoting equal educational opportunities and helping students focus on their studies without worrying about clothing. Together, we can enable academic success for young learners.",
+        "donation_amount": 10000
+      },    
+      {
+        "id": "11",
+        "category": "Food",
+        "title": "Emergency Food Relief",
+        "image": "https://i.ibb.co/R64HTKf/food-relief.jpg",
+        "details": "Support our emergency food relief efforts to provide immediate assistance to individuals affected by natural disasters, conflicts, and other crises. Your donations will help us deliver food supplies, clean water, and essential provisions to those in dire need. By contributing to this campaign, you're helping us respond swiftly to humanitarian emergencies and ensure that affected communities receive the nourishment and support they require during challenging times.",
+        "donation_amount": 25000
+      },
+      
+      {
+        "id": "12",
+        "category": "Health",
+        "title": "Vaccination Drive",
+        "image": "https://i.ibb.co/NWNSQMR/vaccin-drive.jpg",
+        "details": "Join us in our mission to protect vulnerable populations from infectious diseases by supporting this vaccination drive. Your generous donations will enable us to procure vaccines, organize vaccination clinics, and reach out to underserved communities. By contributing, you play a vital role in enhancing public health, preventing the spread of diseases, and ensuring that individuals of all backgrounds have access to life-saving vaccinations.",
+        "donation_amount": 75000
+      }
+]
