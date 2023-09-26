@@ -2,7 +2,7 @@
 import { Link } from 'react-router-dom';
 
 const Allcards = ({donation}) => {
-    console.log(donation);
+    // console.log(donation);
     const {id,category,title,image,category_bg,category_text,category_button}=donation || {}
     // console.log(typeof(color_for_category_bg));
     

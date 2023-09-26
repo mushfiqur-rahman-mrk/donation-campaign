@@ -1,47 +1,9 @@
+ import   {useEffect, useState } from "react";
+import { useLoaderData } from "react-router-dom";
+import { PieChart, Pie, Cell, Tooltip } from "recharts";
  
-// import { Pie, PieChart, Tooltip } from 'recharts';
-
-
-
-
-// const Statistics = () => {
-//     const data=[{name:1000},{name:200},{name:2000}]
-
-    
-//     return (
-//         <div className='w-full h-[70vh] flex justify-center items-center'>
-             
-//             <PieChart width={600} height={600}>
-//                 <Pie
-//                     dataKey="name"
-//                     isAnimationActive={false}
-//                     data={data}
-//                     cx="50%"
-//                     cy="50%"
-//                     outerRadius={80}
-//                     fill="red"
-//                     label
-//                 />
-           
-//           <Tooltip />
-//         </PieChart>
-//         </div>
-//     );
-// };
-
-// export default Statistics;
-
  
-import React, { useCallback, useState } from "react";
-import { PieChart, Pie, Cell } from "recharts";
-
-const data = [
-  { name: "Group A", value: 40 },
-  { name: "Group B", value: 70 },
-  
-];
-
-const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042"];
+const COLORS = ["#FF444A", "#00C49F"];
 
 const RADIAN = Math.PI / 180;
 const renderCustomizedLabel = ({
@@ -71,27 +33,62 @@ const renderCustomizedLabel = ({
 };
  
     const Statistics = () => {
+      const [data,setData]=useState([])
+      const programes=useLoaderData();
+      // console.log(prog);
+      // console.log(storedataParse);      
+
+      const totalCampaign=programes.length
+
+    useEffect(()=>{
+      const storedata= localStorage.getItem('donation');
+      const cards=JSON.parse(storedata)
+      if(cards.length){
+        const donatedAmount=cards.length;
+        setData([{value:totalCampaign-donatedAmount},
+                  {value:donatedAmount}
+        ])
+      }
+    },[totalCampaign])
+ 
   return (
-    <PieChart width={600} height={600}>
-      <Pie
-        data={data}
-        cx={200}
-        cy={200}
-        labelLine={false}
-        label={renderCustomizedLabel}
-        outerRadius={150}
-        fill="#8884d8"
-        dataKey="value"
-      >
-        {data.map((entry, index) => (
-          <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-        ))}
-      </Pie>
-    </PieChart>
+    <>
+      <div className="flex flex-col justify-center items-center h-full">
+        <div className="flex text-center justify-center items-center mx-auto justify-self-center">
+           
+              <PieChart  width={600} height={400}>
+              <Pie
+                data={data}
+                cx="50%"
+                cy="50%"
+                labelLine={false}
+                label={renderCustomizedLabel}
+                outerRadius={170}
+                fill="#8884d8"
+                dataKey="value"
+              >
+                {data.map((entry, index) => (
+                  <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                ))}
+              </Pie>
+               
+            </PieChart>
+          
+        </div>
+        <div className="flex gap-7">
+             <div>
+              <p>Your donation</p>
+              <div className="bg-[#00C49F] h-1"></div>
+             </div>
+             <div>
+              <p>Total donation</p>
+              <div className="bg-[#FF444A] h-1"></div>
+             </div>
+        </div>
+      </div>  
+    </>
   );
 }
-
-
 
 export default Statistics;
 
