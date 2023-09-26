@@ -1,40 +1,41 @@
+import { createContext, useState } from "react";
+
  
 
 const Banner = () => {
-
+    const searchfield=document.getElementById('search');
+    const [search,setSearch]=useState()
+    const Searchitem= createContext()
     
     const handleSubmit=e=>{
         e.preventDefault();
         const searchValue=e.target.name.value;
+        setSearch(searchValue)
+        searchfield.value=''
         
     }
+    console.log(search);
     return (
         <>
-            {/* <div className="bg-[url('banner.png')] w-full h-[80vh] object-center object-cover">
-                <div className="flex flex-col h-[80vh] justify-center items-center">
-                    <h1 className="font-bold text-2xl">I Grow By Helping People In Need</h1>
-                    <div>
-                        <input placeholder="Search...." className="rounded mt-4 py-1 px-3" type="text" />
-                        <button className="bg-red-600 py-1 rounded px-3 ml-2 text-white">Submit</button>
-                    </div>
-                </div>
-            </div>    */}
-            <div>
-                <div className="relative w-full h-screen ">
+            
+            
+                <div className="relative w-full h-[80vh]">
                     
-                    <img className=" absolute w-full object-cover" src="banner.png" alt="" />
-                    <div className="absolute w-full  h-screen bg-white bg-opacity-90"></div>
+                    <img className=" absolute w-full h-full object-cover" src="banner.png" alt="" />
+                    <div className="absolute w-full h-[85vh] bg-white bg-opacity-90"></div>
 
                     <div className="relative flex flex-col h-[80vh] justify-center items-center">
-                    <h1 className="font-bold text-2xl">I Grow By Helping People In Need</h1>
-                    <form onSubmit={handleSubmit}>
-                        <input placeholder="Search...." className="rounded mt-8 py-1 px-3" type="text" name="name" />
-                        <input   className=" bg-red-600 py-1 rounded px-3 ml-2 text-white" type="Submit" value="Submit" />
-                        <button className="bg-red-600 py-1 rounded px-3 ml-2 text-white">Submit</button>
-                    </form>
+                        <h1 className="font-bold text-5xl">I Grow By Helping People In Need</h1>
+                        <Searchitem.Provider value={search}>
+                        <form onSubmit={handleSubmit}>
+                            <input id="search" placeholder="Search...." className="rounded outline-none focus:border focus:border-red-400 mt-8 py-3 px-5 border" type="text" name="name" />
+                            <input   className=" bg-red-600 py-3 rounded px-3 ml-2 text-white" type="Submit" value="Search" />
+                            {/* <button className="bg-red-600 py-1 rounded px-3 ml-2 text-white">Submit</button> */}
+                        </form>
+                        </Searchitem.Provider>
+                    </div>
                 </div>
-                </div>
-            </div>
+            
         </>
     );
 };

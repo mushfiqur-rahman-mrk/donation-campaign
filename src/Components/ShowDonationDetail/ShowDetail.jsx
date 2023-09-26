@@ -12,7 +12,6 @@ const ShowDetail = () => {
     console.log(alldata);
     
     useEffect(()=>{
-        
         if(alldata.length){
             const showDonationDetail= alldata.find(item=>item.id ==id)
         setDonationcard(showDonationDetail)
@@ -22,7 +21,7 @@ const ShowDetail = () => {
     console.log(donationcard);
     return (
         <>
-            <div>
+            <div className="px-40">
                 <DonationDetail donationcard={donationcard}></DonationDetail>
             </div>
              

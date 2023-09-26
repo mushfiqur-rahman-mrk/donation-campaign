@@ -3,7 +3,7 @@
  
 const DonationDetail = ({donationcard}) => {
     console.log(donationcard);
-    const {category,title,donation_amount,details,image,id}=donationcard || {};
+    const {title,donation_amount,details,image,id,category_text,category_button}=donationcard || {};
 
     const handleAddToFavourite=()=>{
         // console.log('btn clicked');
@@ -36,14 +36,10 @@ const DonationDetail = ({donationcard}) => {
                 <div>
                     <div  className="relative">
                         {/* <img src="/./banner.png" alt="" /> */}
-                        <img src={image} alt="" />
+                        <img className="w-full rounded-lg h-[600px] object-cover object-center" src={image} alt="" />
                     <div className="absolute bottom-0 h-20 w-full bg-[#00000052]">
                              
-                        <button onClick={handleAddToFavourite} className={`px-4 py-2 rounded-md text-white font-semibold ml-4 mt-4
-                                    ${category == 'Food' && 'bg-red-500'}
-                                    ${category == 'Health' && 'bg-green-500'}
-                                    ${category == 'Education' && 'bg-blue-500'}
-                                    ${category == 'Clothing' && 'bg-violet-500'}`}>Donation ${donation_amount}</button>
+                        <button style={{backgroundColor:category_button}}  onClick={handleAddToFavourite} className={`px-4 py-2 rounded-md text-white font-semibold ml-4 mt-4`}>Donation ${donation_amount}</button>
                              
                         </div>
                     </div>
