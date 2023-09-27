@@ -1,8 +1,13 @@
 const getLsData=()=>{
       const storedata= localStorage.getItem('donation');
-      const cards=JSON.parse(storedata)
-        return cards;
-      
+      if(storedata){
+        return JSON.parse(storedata)
+        
+      }
+      return []
     }
 
 export default getLsData
+
+
+ 

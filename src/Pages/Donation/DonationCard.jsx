@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import PropTypes from 'prop-types';
  
 const DonationCard = ({item}) => {
     const {category,title,donation_amount,image,id,category_bg,category_text,category_button}=item || {};
@@ -45,4 +45,7 @@ const DonationCard = ({item}) => {
     );
 };
 
+DonationCard.propTypes={
+    item: PropTypes.object
+}
 export default DonationCard;

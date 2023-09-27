@@ -1,6 +1,6 @@
  import   {useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
-import { PieChart, Pie, Cell, Tooltip } from "recharts";
+import { PieChart, Pie, Cell} from "recharts";
 import getLsData from "../../Utilities/Utilities";
  
  
@@ -14,7 +14,6 @@ const renderCustomizedLabel = ({
   innerRadius,
   outerRadius,
   percent,
-  index
 }) => {
   const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
   const x = cx + radius * Math.cos(-midAngle * RADIAN);
@@ -62,12 +61,13 @@ const renderCustomizedLabel = ({
               <PieChart  width={400} height={400}>
               <Pie
                 data={data.length ? data:[{value:totalCampaign},{value:0}]}
+                
                 cx="50%"
                 cy="50%"
                 labelLine={false}
                 label={renderCustomizedLabel}
                 outerRadius={170}
-                fill="#8884d8"
+                fill="#FF444A"
                 dataKey="value"
               >
                 {data.map((entry, index) => (
