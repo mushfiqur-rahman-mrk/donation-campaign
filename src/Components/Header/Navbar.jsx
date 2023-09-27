@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className=" ">
         <nav className="py-4 w-full px-10 flex justify-between shadow-lg items-center bg-transparent">
           {/* <h1 className='text-xl font-semibold'>logo</h1>     */}
-          <img className="w-30 h-10" src="/./public/logo.png" alt="" />
+          <img className="w-30 h-10" src="/Logo.png" alt="" />
           <ul className="flex gap-8">
             <li>
               <NavLink

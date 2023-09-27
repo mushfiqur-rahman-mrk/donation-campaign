@@ -29,15 +29,17 @@ const Home = () => {
     <>
       <Banner onSubmit={getdata}></Banner>
 
-      <div className="container mx-auto grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-2 gap-10 my-20 px-10">
+      <div>
         {search.length > 0 ? (
-          search.map((donation) => (
-            <Allcards key={donation.id} donation={donation}></Allcards>
-          ))
+          <div className="container mx-auto grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-2 gap-10 my-20 px-10">
+            {search.map((donation) => (
+              <Allcards key={donation.id} donation={donation}></Allcards>
+            ))}{" "}
+          </div>
         ) : (
-          <h1 className="w-full text-3xl text center text-red-600">
-            No data matched for your search
-          </h1>
+          <div className="w-full text-3xl my-36 text-center text-red-600">
+            <h1>No data matched for your search</h1>
+          </div>
         )}
       </div>
     </>
