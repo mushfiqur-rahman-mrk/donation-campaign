@@ -1,6 +1,7 @@
  import   {useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import { PieChart, Pie, Cell, Tooltip } from "recharts";
+import getLsData from "../../Utilities/Utilities";
  
  
 const COLORS = ["#FF444A", "#00C49F"];
@@ -35,30 +36,32 @@ const renderCustomizedLabel = ({
     const Statistics = () => {
       const [data,setData]=useState([])
       const programes=useLoaderData();
-      // console.log(prog);
-      // console.log(storedataParse);      
+      
+            
 
       const totalCampaign=programes.length
-
+       
+       
     useEffect(()=>{
-      const storedata= localStorage.getItem('donation');
-      const cards=JSON.parse(storedata)
+      
+      const cards=getLsData()
       if(cards.length){
         const donatedAmount=cards.length;
         setData([{value:totalCampaign-donatedAmount},
                   {value:donatedAmount}
         ])
       }
+      
     },[totalCampaign])
- 
+
   return (
     <>
       <div className="flex flex-col justify-center items-center h-full">
         <div className="flex text-center justify-center items-center mx-auto justify-self-center">
            
-              <PieChart  width={600} height={400}>
+              <PieChart  width={400} height={400}>
               <Pie
-                data={data}
+                data={data.length ? data:[{value:totalCampaign},{value:0}]}
                 cx="50%"
                 cy="50%"
                 labelLine={false}

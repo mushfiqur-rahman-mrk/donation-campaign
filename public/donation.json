@@ -5,7 +5,7 @@
       "title": "Support Medical Clinics",
       "image": "https://i.ibb.co/rkGvz1g/medicle.jpg",
       "details": "Donate to support the establishment and operation of medical clinics in underserved areas. Your contribution will help provide essential supplies, medical equipment, and qualified healthcare professionals to ensure that individuals in these regions have access to quality healthcare services. We aim to make a significant impact by addressing healthcare disparities and improving the overall well-being of these communities.",
-      "donation_amount": 50000,
+      "donation_amount": 500,
       "category_bg": "#90ee90",
       "category_text":"#228b22",
       "category_button":"#32cd32"
@@ -14,7 +14,7 @@
         "id": "2",
         "category": "Food",
         "title": "Feed a Hungry Children",
-        "image": "https://i.ibb.co/zm14r4r/for-hungry-children.png",
+        "image": "https://i.ibb.co/YtzRS3v/hungry.jpg",
         "details": "Join us in our mission to provide nutritious meals to hungry children in underserved communities. Your donations will help us combat food insecurity and ensure that no child goes to bed hungry. With your support, we aim to distribute food packages that include essential food items like grains, vegetables, and protein sources to families in need. Together, we can make a significant impact in the lives of these children and their families.",
         "donation_amount": 200,
         "category_bg": "#87cefa",
@@ -27,7 +27,7 @@
       "title": "Warmth for the Winter",
       "image": "https://i.ibb.co/5vRcfSp/Winter-Warmth-Drive-Giving-Page-1000-x-465-px-1.png",
       "details": "Join us in providing warmth to those in need during the winter months. Your generous donations of warm clothing items such as coats, sweaters, and blankets will make a significant difference in the lives of individuals facing cold weather without adequate attire. Together, we can ensure that everyone has access to warm and comfortable clothing to stay safe and healthy during the winter season.",
-      "donation_amount": 15000,
+      "donation_amount": 150,
       "category_bg": "#fa8072",
       "category_text":"#8b0000",
       "category_button":"#ff4500"
@@ -38,7 +38,7 @@
       "title": "Clean water for all",
       "image": "https://i.ibb.co/nkt65WJ/clean-water.png",
       "details": "Access to clean and safe drinking water is a fundamental human right, yet millions of people around the world still lack this basic necessity. The Clean Water for All drive is a global initiative aimed at addressing this pressing issue, with the goal of ensuring that every individual has access to clean and safe water.Clean water is essential for life and well-being. It is not only necessary for drinking but also for cooking, sanitation, and hygiene. Lack of access to clean water can lead to waterborne diseases, malnutrition, and a cycle of poverty that affects communities for generations.One of the main challenges in achieving universal access to clean water is the unequal distribution of resources and infrastructure. Many developing countries face limited access to safe water sources, often due to insufficient funding, inadequate infrastructure, and environmental factors. The Clean Water for All drive seeks to bridge this gap by mobilizing resources, raising awareness, and fostering collaboration among governments, organizations, and individuals.To achieve the goal of clean water for all, several key strategies are essential. First, investments must be made in water infrastructure, ensuring that communities have access to reliable and safe water sources. Additionally, education and awareness campaigns are vital to promote proper hygiene and sanitation practices, reducing the risk of waterborne diseases.In conclusion, the Clean Water for All drive is a global effort to address one of the most pressing issues of our time. Access to clean and safe water is not just a basic human right but a cornerstone of healthy and thriving communities. By working together and prioritizing this essential resource, we can ensure a brighter and healthier future for all.",
-      "donation_amount": 30000,
+      "donation_amount": 300,
       "category_bg": "#90ee90",
       "category_text":"#228b22",
       "category_button":"#32cd32"
@@ -49,7 +49,7 @@
         "title": "Quality Education for all",
         "image": "https://i.ibb.co/HFdCPdZ/maxresdefault.jpg",
         "details": "Quality education is not merely a privilege; it's a basic human right and a cornerstone for personal and societal progress. The 'Quality Education for All Drive' is a global initiative dedicated to ensuring that every individual, regardless of their background or circumstances, has access to an education that is enriching, equitable, and empowering.Education is more than just acquiring knowledge; it's about fostering critical thinking, creativity, and problem-solving skills. A quality education prepares individuals to be active and informed citizens, contributing to the betterment of their communities and the world at large.This drive centers on a few key principles:Equity: Education should be inclusive and accessible to everyone, irrespective of their socio-economic status, gender, or location. Equity in education ensures that no one is left behind.Empowerment: Quality education empowers individuals to make informed choices, pursue their passions, and become lifelong learners. It is a catalyst for personal growth and self-discovery.Innovation: Education should adapt to the changing needs of society. It encourages By championing these principles and investing in educational resources, infrastructure, and teaching excellence, the 'Quality Education for All Drive' aims to provide the tools and opportunities necessary for individuals to realize their full potential. It is a commitment to building a brighter and more prosperous future for all, where education is the key to unlocking limitless possibilities.",
-        "donation_amount": 25000,
+        "donation_amount": 250,
         "category_bg": "#dda0dd",
       "category_text":"#4b0082",
       "category_button":"#ba55d3"
@@ -60,7 +60,7 @@
         "title": "Used Clothing Drive",
         "image": "https://i.ibb.co/R26wXvz/cloth.jpg",
         "details": "In a world that generates an overwhelming amount of clothing waste each year, a simple yet impactful solution has emerged—the Used Clothes Drive. This noble initiative involves collecting gently worn, unwanted clothing items from individuals and redistributing them to those in need. It not only reduces textile waste but also extends a helping hand to vulnerable communities.The benefits of a Used Clothes Drive are manifold. Firstly, it promotes sustainability by diverting clothing from landfills, thus reducing the environmental footprint of the fashion industry. Secondly, it allows individuals to declutter their closets, fostering a sense of organization and mindfulness about consumption. Most importantly, these drives provide essential clothing to people who may not have the means to acquire them otherwise, such as those affected by poverty, disasters, or homelessness. Participating in a Used Clothes Drive is an opportunity for communities to come together and make a positive impact. Local organizations, schools, and businesses often organize these drives to encourage charitable giving and engage in social responsibility. By donating used clothing, individuals contribute to a cycle of generosity that not only aids those in need but also promotes a sense of connectedness within the community.",
-        "donation_amount": 20000,
+        "donation_amount": 20,
         "category_bg": "#fa8072",
       "category_text":"#8b0000",
       "category_button":"#ff4500"
@@ -71,7 +71,7 @@
         "title": "Build Schools in Rural Areas",
         "image": "https://i.ibb.co/19C8Xt3/build-school.jpg",
         "details": "Help us bring the gift of education to remote rural areas where access to quality schooling is scarce. Your generous donations will support our mission to construct new schools in these underserved communities. By contributing to this campaign, you enable us to build safe and well-equipped classrooms, provide essential learning materials, and employ dedicated teachers who are passionate about educating the next generation.Access to education is a fundamental right, and your support ensures that children in these regions have a chance to learn, grow, and realize their full potential. Join us in creating a brighter future for these young minds and in breaking the cycle of poverty through education.",
-        "donation_amount": 50000,
+        "donation_amount": 200,
         "category_bg": "#dda0dd",
       "category_text":"#4b0082",
       "category_button":"#ba55d3"
@@ -82,7 +82,7 @@
         "title": "Support Local Food Banks",
         "image": "https://i.ibb.co/Wsm9Syc/food-bank.jpg",
         "details": "Help us strengthen local food banks and food rescue programs in your community. Your contributions will enable us to collect surplus food from local businesses and distribute it to those facing hunger. By supporting this campaign, you're not only reducing food waste but also providing nutritious meals to individuals and families struggling to make ends meet. Together, we can ensure that everyone has access to an adequate and healthy diet.",
-        "donation_amount": 30000,
+        "donation_amount": 30,
         "category_bg": "#87cefa",
         "category_text":"#0000ff",
         "category_button":"#1e90ff"
@@ -93,7 +93,7 @@
         "title": "Digital Learning Initiative",
         "image": "https://i.ibb.co/B2tNsLH/learning.jpg",
         "details": "Support our digital learning initiative aimed at equipping schools with modern educational technology. Your contributions will fund the provision of computers, internet access, and educational software to schools, making digital learning resources accessible to students. In today's digital age, it's crucial to bridge the digital divide in education and prepare students for the future.By participating in this campaign, you empower students to develop essential digital skills, access a world of knowledge online, and enhance their educational experiences. Together, we can ensure that no student is left behind in the digital era, and all students have equal access to a quality education.",
-        "donation_amount": 30000,
+        "donation_amount": 100,
         "category_bg": "#dda0dd",
       "category_text":"#4b0082",
       "category_button":"#ba55d3"
@@ -104,7 +104,7 @@
         "title": "School Uniforms for Students",
         "image": "https://i.ibb.co/wzkjfJm/33154484294-1f21c02384-o.jpg",
         "details": "Support students in their educational journey by providing them with school uniforms. Your donations will help ensure that children have access to appropriate attire for school, reducing barriers to education. By contributing to this campaign, you're promoting equal educational opportunities and helping students focus on their studies without worrying about clothing. Together, we can enable academic success for young learners.",
-        "donation_amount": 10000,
+        "donation_amount": 100,
         "category_bg": "#fa8072",
       "category_text":"#8b0000",
       "category_button":"#ff4500"
@@ -115,7 +115,7 @@
         "title": "Emergency Food Relief",
         "image": "https://i.ibb.co/t3W8m9S/food-relief.jpg",
         "details": "Support our emergency food relief efforts to provide immediate assistance to individuals affected by natural disasters, conflicts, and other crises. Your donations will help us deliver food supplies, clean water, and essential provisions to those in dire need. By contributing to this campaign, you're helping us respond swiftly to humanitarian emergencies and ensure that affected communities receive the nourishment and support they require during challenging times.",
-        "donation_amount": 25000,
+        "donation_amount": 250,
         "category_bg": "#87cefa",
         "category_text":"#0000ff",
         "category_button":"#1e90ff"
@@ -127,7 +127,7 @@
         "title": "Vaccination Drive",
         "image": "https://i.ibb.co/NWNSQMR/vaccin-drive.jpg",
         "details": "Join us in our mission to protect vulnerable populations from infectious diseases by supporting this vaccination drive. Your generous donations will enable us to procure vaccines, organize vaccination clinics, and reach out to underserved communities. By contributing, you play a vital role in enhancing public health, preventing the spread of diseases, and ensuring that individuals of all backgrounds have access to life-saving vaccinations.",
-        "donation_amount": 75000,
+        "donation_amount": 50,
         "category_bg": "#90ee90",
         "category_text":"#228b22",
         "category_button":"#32cd32"

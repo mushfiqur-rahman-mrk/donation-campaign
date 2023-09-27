@@ -21,7 +21,7 @@ const ShowDetail = () => {
     console.log(donationcard);
     return (
         <>
-            <div className="px-40">
+            <div className="lg:px-40">
                 <DonationDetail donationcard={donationcard}></DonationDetail>
             </div>
              

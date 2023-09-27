@@ -36,10 +36,10 @@ const DonationDetail = ({donationcard}) => {
                 <div>
                     <div  className="relative">
                         {/* <img src="/./banner.png" alt="" /> */}
-                        <img className="w-full rounded-lg h-[600px] object-cover object-center" src={image} alt="" />
+                        <img className="w-full rounded-lg h-[400px] object-cover object-center" src={image} alt="" />
                     <div className="absolute bottom-0 h-20 w-full bg-[#00000052]">
                              
-                        <button style={{backgroundColor:category_button}}  onClick={handleAddToFavourite} className={`px-4 py-2 rounded-md text-white font-semibold ml-4 mt-4`}>Donation ${donation_amount}</button>
+                        <button style={{backgroundColor:category_text}}  onClick={handleAddToFavourite} className={`px-4 py-2 rounded-md text-white font-semibold ml-4 mt-4`}>Donation ${donation_amount}</button>
                              
                         </div>
                     </div>

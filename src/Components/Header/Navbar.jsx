@@ -14,7 +14,7 @@ const Navbar = () => {
                     <NavLink
                             to="/"
                             className={({ isActive, isPending }) =>
-                            isPending ? "pending" : isActive ? "text-green-400 underline" : ""
+                            isPending ? "pending" : isActive ? "text-red-500 underline" : ""
                             }
                              >
                          Home
@@ -24,7 +24,7 @@ const Navbar = () => {
                     <NavLink
                             to="/donation"
                             className={({ isActive, isPending }) =>
-                            isPending ? "pending" : isActive ? "text-green-400 underline" : ""
+                            isPending ? "pending" : isActive ? "text-red-500 underline" : ""
                             }
                              >
                          Donation
@@ -34,7 +34,7 @@ const Navbar = () => {
                     <NavLink
                             to="/statistics"
                             className={({ isActive, isPending }) =>
-                            isPending ? "pending" : isActive ? "text-green-400 underline" : ""
+                            isPending ? "pending" : isActive ? "text-red-500 underline" : ""
                             }
                              >
                          Statistics
@@ -44,37 +44,7 @@ const Navbar = () => {
                 </ul>
             </nav>  
             </div>    
-
-            {/* <nav className="flex justify-between items-center shadow-lg px-10 py-5">
-                <h1 className="text-xl font-semibold">Phone Shop</h1>    
-                <ul className="flex gap-10">
-                    <li>
-                        <NavLink
-                            to="/"
-                            className={({ isActive, isPending }) =>
-                            isPending ? "pending" : isActive ? "text-green-400 underline" : ""
-                          }
-                            
-                            >
-                            Home
-                        </NavLink>
-                    </li>
-                    <li>
-                        <NavLink
-                            to="/donation"
-                            className={({ isActive, isPending }) =>
-                             isPending ? "pending" : isActive ? "text-green-400 underline" : ""
-                            }
-                            >
-                            Donation
-                        </NavLink>
-                    </li>
-                     
-                    
-                     
-                </ul>
-            </nav>   */}
-
+ 
         </>
     );
 };

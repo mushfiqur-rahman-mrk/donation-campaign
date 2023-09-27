@@ -23,8 +23,8 @@ const Donation = () => {
     return (
         <div className="px-20">
  
-                {nodata ? <p className="h-[70vh] w-full text-4xl text-green-600 flex justify-center items-center ">No Data Available</p>:<div>
-                    <div className="container mx-auto grid grid-cols-2 gap-8 my-10">
+                {nodata ? <p className="h-[70vh] w-full text-4xl text-green-600 flex justify-center items-center ">You haven`t donated yet.</p>:<div>
+                    <div className="container mx-auto grid lg:grid-cols-2 md:grid-cols-1  gap-8 my-10">
                         {
                             isclicked ?  donatinitem.map(item=><DonationCard key={item.id} item={item}></DonationCard>)
                             :
